@@ -1,12 +1,9 @@
 package com.boot.model;
 
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
 public class ProcessingStatus {
 
-	@XmlElement
 	private final String status;
 
 	@XmlElement
